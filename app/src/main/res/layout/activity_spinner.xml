@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:spinnerMode="dialog"></Spinner>
+
+    <AutoCompleteTextView
+        android:id="@+id/atc_content"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:completionHint="请输入搜索内容"
+        android:completionThreshold="1"
+        android:dropDownHeight="50dp" />
+
+    <MultiAutoCompleteTextView
+        android:id="@+id/matv_content"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:completionThreshold="1" />
+
+</LinearLayout>
